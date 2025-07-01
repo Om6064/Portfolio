@@ -4,7 +4,7 @@ import HeroAbout from "../components/HeroAbout";
 
 const Hero = () => {
   return (
-    <section className="h-[80vh] flex items-center justify-center flex-col  bg-image text-white">
+    <section className="pt-32 absolute w-full top-0 -z-10 flex items-center justify-center flex-col  bg-image text-white">
       <div className="container mx-auto">
         <div className="flex items-center justify-center">
           <div className="col-6">
@@ -21,7 +21,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <HeroAbout/>
+      <div className="w-full">
+        <HeroAbout/>
+      </div>
+      
     </section>
   );
 };

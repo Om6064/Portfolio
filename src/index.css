@@ -3,16 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-image{
-    background-image: url("/image/home-bg.dc52d5d40a40b13154b0.jpg");
-
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 *{
     font-family: "Raleway", sans-serif;
+}
+.bg-image{
+    background-image: url("/image/home-bg.dc52d5d40a40b13154b0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 /* Base column classes */
@@ -87,3 +89,9 @@
 .col-xl-11 { @apply xl:w-11/12 xl:px-3; }
 .col-xl-12 { @apply xl:w-full xl:px-3; }
 
+
+.about-section {
+    background-image: linear-gradient(to bottom left, hsla(0, 3%, 6%, .582), rgba(12, 8, 24, .904)) !important;
+    background-image: var(--section-background-color) !important;
+    color: #fff !important;
+}

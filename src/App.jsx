@@ -5,6 +5,7 @@ import Hero from "./pages/Hero"
 import Projects from "./pages/Projects"
 import Skills from "./pages/Skills"
 import Header from "./components/Header"
+import 'remixicon/fonts/remixicon.css'
 
 const App = () => {
   return (
