@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
-            <img src="/image/download (1).png" alt="" className='w-[50px] h-[28px]' />
+            <img src="image/Black_Yellow_White_Simple_Minimalist_Initial_Name_Logo__4_-removebg-preview.png" alt="logo" className='w-[60px] h-[60px]' />
           </div>
           <div>
               <ul className='flex items-center gap-14 text-xl text-white font-semibold'>

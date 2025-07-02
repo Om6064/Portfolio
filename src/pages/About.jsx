@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import GitHubHeatmap from "../components/GitHubHeatmap";
 import Particles from "../components/Particles";
 
 const About = () => (
@@ -9,7 +10,7 @@ const About = () => (
     left: 0,
     width: '100vw',
     height: '100vh',
-    zIndex: -1, // Keep it behind everything
+    zIndex: -1,
   }}>
       <Particles
         particleColors={['#ffffff', '#ffffff']}
@@ -101,7 +102,8 @@ const About = () => (
       Days I <span className="text-purple-400">Code</span>
     </h2>
     <div className="pt-6 flex items-center justify-center">
-      <img src="image/Screenshot 2025-07-02 100849.png" alt="git image" className="col-7" />
+      {/* <img src="https://ghchart.rshah.org/om6064" alt="git image" className="col-7" /> */}
+      <GitHubHeatmap/>
     </div>
 
     <Footer />
