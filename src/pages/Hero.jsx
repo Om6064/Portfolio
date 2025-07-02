@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Headline from "../components/Headline";
 import HeroAbout from "../components/HeroAbout";
@@ -24,6 +25,7 @@ const Hero = () => {
       <div className="w-full">
         <HeroAbout/>
       </div>
+      <Footer/>
       
     </section>
   );

@@ -13,7 +13,7 @@ const Header = () => {
   //   { label: "Git 🐱", href: "https://github.com/om6064" },
   // ];
   return (
-    <header className="py-5">
+    <header className="py-5 absolute w-full">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
@@ -23,7 +23,7 @@ const Header = () => {
               <ul className='flex items-center gap-14 text-xl text-white font-semibold'>
                 <Link to={"/"} className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i className="ri-home-7-line"></i> Home</Link>
                 <Link to={"/about"} className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-user-line"></i> About</Link>
-                <Link to={"/project"} className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-broadcast-line"></i> Project</Link>
+                <Link to={"/projects"} className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-broadcast-line"></i> Project</Link>
                 <Link  className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-booklet-line"></i> Resume</Link>
                 <Link  className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-news-line"></i> Blogs</Link>
                 <Link  className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-phone-fill"></i> Contact</Link>

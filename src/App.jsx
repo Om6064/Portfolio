@@ -7,6 +7,7 @@ import Skills from "./pages/Skills"
 import Header from "./components/Header"
 import 'remixicon/fonts/remixicon.css'
 
+
 const App = () => {
   return (
     <Router>

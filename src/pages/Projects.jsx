@@ -1,10 +1,18 @@
+import SpotlightCard from "../components/SpotlightCard";
+
 const Projects = () => (
-  <section className="p-10">
-    <h2 className="text-3xl font-bold mb-4">Projects</h2>
-    <div className="border p-4 rounded shadow">
-      <h3 className="text-xl font-semibold mb-2">My Cool Project</h3>
-      <p className="mb-2">A short description of the project.</p>
-      <a href="https://github.com/" className="text-blue-500 hover:underline">View Code</a>
+  <section className="absolute top-0 w-full -z-10 bg-black text-white">
+    <div className="container mx-auto">
+      <h2 className="text-3xl font-bold my-28 text-center">My Recent <span className="text-purple-600">Works</span></h2>
+      <div className="flex">
+        <div className="col-4">
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+              
+          </SpotlightCard>
+        </div>
+        <div className="col-4"></div>
+        <div className="col-4"></div>
+      </div>
     </div>
   </section>
 );
