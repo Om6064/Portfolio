@@ -24,7 +24,7 @@ const Header = () => {
                 <Link to={"/"} className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i className="ri-home-7-line"></i> Home</Link>
                 <Link to={"/about"} className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-user-line"></i> About</Link>
                 <Link to={"/projects"} className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-broadcast-line"></i> Project</Link>
-                <Link  className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-booklet-line"></i> Resume</Link>
+                <Link to={"/resume"}  className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-booklet-line"></i> Resume</Link>
                 <Link  className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-news-line"></i> Blogs</Link>
                 <Link  className='cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400'><i class="ri-phone-fill"></i> Contact</Link>
                 <Link  className='cursor-pointer px-3 py-2 rounded-xl mb-2 hover:translate-y-[-2px] transition-all  bg-[#934cce5e]'><i class="ri-github-fill"></i> Git</Link>

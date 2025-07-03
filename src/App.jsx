@@ -3,9 +3,9 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Hero from "./pages/Hero"
 import Projects from "./pages/Projects"
-import Skills from "./pages/Skills"
 import Header from "./components/Header"
 import 'remixicon/fonts/remixicon.css'
+import Resume from "./pages/Resume"
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
