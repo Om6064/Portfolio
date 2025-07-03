@@ -8,7 +8,7 @@ const Projects = () => {
   {
     img: "/image/image.png",
     title: "Employee Management System",
-    des: "The Employee Management System is a responsive, user-friendly web application built using React.js...",
+    des: "The Employee Management System is a responsive, user-friendly web application built using React.js. It allows organizations to efficiently manage employee information with modern CRUD (Create, Read, Update, Delete) operations.",
     badges: [
       { label: "React", icon: "ri-reactjs-fill" },
       { label: "JavaScript", icon: "ri-javascript-fill" },
@@ -20,7 +20,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-02 124849.png",
     title: "React Invent Landing Page",
-    des: "The React Invent Landing Page is a clean, modern, and fully responsive landing page built with React.js...",
+    des: "The React Invent Landing Page is a simple yet elegant landing page designed and built entirely with React.js and Bootstrap, without relying on third-party plugins. It demonstrates how to create clean, responsive layouts using Bootstrap’s grid system and utility classes, combined with React’s component-based architecture.",
     badges: [
       { label: "React", icon: "ri-reactjs-fill" },
       { label: "Bootstrap", icon: "ri-bootstrap-fill" },
@@ -32,7 +32,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-02 125950.png",
     title: "React Evea Landing Page",
-    des: "The React Evea Landing Page is a straightforward, clean landing page built entirely with React.js and Bootstrap...",
+    des: "The React Evea Landing Page is a straightforward, clean landing page built entirely with React.js and Bootstrap, without any third-party plugins. It focuses on delivering a professional, modern first impression while keeping the codebase simple and maintainable.",
     badges: [
       { label: "React", icon: "ri-reactjs-fill" },
       { label: "Bootstrap", icon: "ri-bootstrap-fill" },
@@ -44,7 +44,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-02 130636.png",
     title: "Append Web Layout",
-    des: "This Append Web Layout is a complete, multi-section web page designed using HTML5, CSS3, Bootstrap, and jQuery...",
+    des: "This Append Web Layout is a complete, multi-section web page designed using HTML5, CSS3, Bootstrap, and jQuery. It combines modern design with interactive elements, demonstrating strong front-end skills without relying on heavy frameworks.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
@@ -57,7 +57,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-02 131857.png",
     title: "Initial Personal Portfolio Website",
-    des: "This is my initial personal portfolio website, crafted with core web technologies like HTML, CSS, jQuery, and Bootstrap...",
+    des: "This is my initial personal portfolio website, crafted with core web technologies like HTML, CSS, jQuery, and Bootstrap. It serves as my starting point for presenting my skills, showcasing my projects, and providing an easy way for visitors to connect with me.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
@@ -70,7 +70,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-02 132244.png",
     title: "Homilisti Web Layout",
-    des: "This project is a static website layout built entirely with HTML and CSS, inspired by real estate listing websites like Homlisti...",
+    des: "This project is a static website layout built entirely with HTML and CSS, inspired by real estate listing websites like Homlisti. It demonstrates my ability to design and structure clean, responsive web pages without any frameworks or plugins.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
@@ -81,7 +81,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-02 132721.png",
     title: "Duralux Admin Panel",
-    des: "This project is a responsive Admin Dashboard built using HTML, CSS, Bootstrap, and jQuery...",
+    des: "This project is a responsive Admin Dashboard built using HTML, CSS, Bootstrap, and jQuery. It provides a clean, modern interface for managing backend data and visualizing statistics.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
@@ -94,7 +94,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-03 102420.png",
     title: "SendBox Web Layout",
-    des: "Sendbox Web Layout is a simple, clean landing page built entirely with HTML and CSS...",
+    des: "Sendbox is a simple, clean landing page built entirely with HTML and CSS. It showcases a modern layout with a clear focus on minimal design and well-structured content sections.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
@@ -105,7 +105,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-03 102941.png",
     title: "Vristro Admin Panel",
-    des: "This Admin Panel is a dashboard interface built using HTML, CSS, and jQuery...",
+    des: "This Admin Panel is a dashboard interface built using HTML, CSS, and jQuery. It provides a foundational structure for managing and visualizing backend data in a user-friendly way.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
@@ -117,7 +117,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-03 103957.png",
     title: "Siora Pure Luxury Real Life Project",
-    des: "Siora Luxury is a real-life e-commerce website designed and developed for an actual client...",
+    des: "Siora Luxury is a real-life e-commerce website designed and developed for an actual client, showcasing my ability to build professional, production-ready websites using HTML, CSS, Bootstrap, JavaScript, and jQuery.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
@@ -131,7 +131,7 @@ const Projects = () => {
   {
     img: "image/Screenshot 2025-07-03 104534.png",
     title: "Bitcoin Web — Cryptocurrency Landing Page",
-    des: "Bitcoin Web is a cryptocurrency-themed landing page crafted using HTML, CSS, Bootstrap, and jQuery...",
+    des: "Bitcoin Web is a cryptocurrency-themed landing page crafted using HTML, CSS, Bootstrap, and jQuery. It demonstrates how to design a sleek, modern, and responsive promotional page for crypto-related services or products.",
     badges: [
       { label: "HTML", icon: "ri-html5-fill" },
       { label: "CSS", icon: "ri-css3-fill" },
