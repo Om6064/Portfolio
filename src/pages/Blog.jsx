@@ -88,7 +88,7 @@ const Projects = () => {
                 />
             </div>
             <div className="container mx-auto">
-                <h2 className="text-3xl font-bold my-28 text-center">My <span className="text-purple-600">Blogs</span></h2>
+                <h2 className="text-3xl font-bold my-28 mb-20 text-center">My <span className="text-purple-600">Blogs</span></h2>
                 <div className="flex flex-wrap gap-y-3">
 
                     {
