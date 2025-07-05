@@ -67,15 +67,17 @@ const Projects = () => {
 
 
     return (
-        <section className="absolute top-0 w-full h-[110vh] -z-10 bg-black text-white">
-            <div style={{
-                position: 'fixed',
-                top: 0,
-                left: 0,
-                width: '100vw',
-                height: '100vh',
-                zIndex: -1,
-            }}>
+        <section className="absolute w-full top-0 min-h-screen bg-black text-white">
+            <div
+                style={{
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    width: '100vw',
+                    height: '100vh',
+                    zIndex: -1,
+                }}
+            >
                 <Particles
                     particleColors={['#ffffff', '#ffffff']}
                     particleCount={200}
@@ -87,33 +89,33 @@ const Projects = () => {
                     disableRotation={false}
                 />
             </div>
-            <div className="container mx-auto">
-                <h2 className="text-3xl font-bold my-28 mb-20 text-center">My <span className="text-purple-600">Blogs</span></h2>
-                <div className="flex flex-wrap gap-y-3">
 
-                    {
-                        arr.map((projects) => {
-                            return <div className="col-4">
-                                <SpotlightCard className="custom-spotlight-card h-full" spotlightColor="rgba(0, 0, 255, .3)">
-                                    <h2 className="text-center my-5 text-xl">{projects.title}</h2>
+            <div className="container mx-auto px-4">
+                <h2 className="text-3xl font-bold my-28 mb-20 text-center">
+                    My <span className="text-purple-600">Blogs</span>
+                </h2>
 
-                                    <p className="text-center">{projects.description}</p>
-
-                                    <div className="flex mt-5 items-center justify-center">
-                                        <div className="bg-purple-600 text-center text-white text-xs px-4 py-2 rounded flex items-center gap-1">
-
-                                            {projects.category}
-                                        </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {arr.map((project) => (
+                        <div key={project.title} className="flex">
+                            <SpotlightCard
+                                className="custom-spotlight-card flex flex-col justify-between w-full"
+                                spotlightColor="rgba(0, 0, 255, .3)"
+                            >
+                                <h2 className="text-center my-5 text-xl">{project.title}</h2>
+                                <p className="text-center px-4">{project.description}</p>
+                                <div className="flex mt-5 mb-4 items-center justify-center">
+                                    <div className="bg-purple-600 text-center text-white text-xs px-4 py-2 rounded flex items-center gap-1">
+                                        {project.category}
                                     </div>
-
-
-                                </SpotlightCard>
-                            </div>
-                        })}
+                                </div>
+                            </SpotlightCard>
+                        </div>
+                    ))}
                 </div>
             </div>
-
         </section>
+
     )
 }
 

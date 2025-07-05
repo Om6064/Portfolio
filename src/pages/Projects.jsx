@@ -184,8 +184,8 @@ const Projects = () => {
         <div className="flex flex-wrap gap-y-4">
 
           {
-            isOpen ? arr.map((projects) => {
-              return <div className="col-4">
+            isOpen ? arr.map((projects,idx) => {
+              return <div return={idx} className="col-md-6 col-xl-4 p-7">
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 0, 255, .3)">
                   <img src={`${projects.img}`} alt="" />
                   <h2 className="text-center my-5 text-xl">{projects.title}</h2>
@@ -213,7 +213,7 @@ const Projects = () => {
                 </SpotlightCard>
               </div>
             }) : arr.slice(0, 6).map((projects) => {
-              return <div className="col-4">
+              return <div className="col-md-6 col-xl-4 p-7">
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 0, 255, .3)">
                   <img src={`${projects.img}`} alt="" />
                   <h2 className="text-center my-5 text-xl">{projects.title}</h2>
