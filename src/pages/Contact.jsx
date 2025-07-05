@@ -1,8 +1,9 @@
+import Footer from "../components/Footer";
 import Particles from "../components/Particles";
 
 const Projects = () => {
   return (
-    <section className="relative w-full min-h-screen bg-black text-white overflow-hidden">
+    <div className="relative w-full min-h-screen bg-black text-white overflow-hidden">
       {/* Particle background */}
       <div className="absolute inset-0 z-10">
         <Particles
@@ -122,7 +123,8 @@ const Projects = () => {
           </div>
         </div>
       </section>
-    </section>
+      <Footer/>
+    </div>
   );
 };
 

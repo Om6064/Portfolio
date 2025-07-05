@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Particles from "../components/Particles";
 import SpotlightCard from "../components/SpotlightCard";
 
@@ -114,6 +115,7 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
+            <Footer/>
         </section>
 
     )

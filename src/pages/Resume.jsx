@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Particles from "../components/Particles"
 
 const Resume = () => {
@@ -40,6 +41,7 @@ const Resume = () => {
           />
         </div>
       </div>
+      <Footer/>
     </section>
   );
 };

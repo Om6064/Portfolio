@@ -5,13 +5,13 @@ import Particles from "../components/Particles";
 const About = () => (
   <section className="relative top-0 w-full -z-10 bg-black text-white">
     <div style={{
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    width: '100vw',
-    height: '100vh',
-    zIndex: -1,
-  }}>
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100vw',
+      height: '100vh',
+      zIndex: -1,
+    }}>
       <Particles
         particleColors={['#ffffff', '#ffffff']}
         particleCount={200}
@@ -101,10 +101,16 @@ const About = () => (
     <h2 className="text-5xl font-bold mb-8 text-center pt-24">
       Days I <span className="text-purple-400">Code</span>
     </h2>
-    <div className="pt-6 flex items-center justify-center">
-      {/* <img src="https://ghchart.rshah.org/om6064" alt="git image" className="col-7" /> */}
-      <GitHubHeatmap/>
+
+    <div className="w-full flex items-center justify-center overflow-x-auto p-4">
+      <div className="min-w-[600px] mx-auto">
+        <GitHubHeatmap />
+      </div>
     </div>
+
+
+
+
 
     <Footer />
 

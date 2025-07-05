@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Particles from "../components/Particles";
 import SpotlightCard from "../components/SpotlightCard";
+import Footer from "../components/Footer";
 
 const Projects = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -189,7 +190,7 @@ const Projects = () => {
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 0, 255, .3)">
                   <img src={`${projects.img}`} alt="" />
                   <h2 className="text-center my-5 text-xl">{projects.title}</h2>
-                  <p>{projects.des}</p>
+                  <p className="text-center">{projects.des}</p>
 
                   <div className="flex flex-wrap justify-center  gap-2 mt-6">
                     {projects.badges && projects.badges.map((badge, idx) => (
@@ -217,7 +218,7 @@ const Projects = () => {
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 0, 255, .3)">
                   <img src={`${projects.img}`} alt="" />
                   <h2 className="text-center my-5 text-xl">{projects.title}</h2>
-                  <p>{projects.des}</p>
+                  <p className="text-center">{projects.des}</p>
                   <div className="flex flex-wrap justify-center  gap-2 mt-6">
                     {projects.badges && projects.badges.map((badge, idx) => (
                       <span key={idx} className="bg-purple-600 text-white text-xs px-4 py-2 rounded flex items-center gap-1">
@@ -255,6 +256,8 @@ const Projects = () => {
           }
         </div>
       </div>
+
+      <Footer/>
 
     </section>
   )
