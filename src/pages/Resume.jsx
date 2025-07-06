@@ -1,12 +1,19 @@
 import Footer from "../components/Footer";
-import Particles from "../components/Particles"
+import Particles from "../components/Particles";
 
 const Resume = () => {
   return (
     <section className="relative w-full min-h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
       {/* Background Particles */}
       <div
-        className="fixed top-0 left-0 w-full h-full -z-10"
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          zIndex: 1,
+        }}
       >
         <Particles
           particleColors={['#ffffff', '#ffffff']}
@@ -33,7 +40,7 @@ const Resume = () => {
         </a>
 
         {/* Resume Image */}
-        <div className="mt-8 w-full  max-w-4xl">
+        <div className="mt-8 w-full max-w-4xl">
           <img
             src="/image/Screenshot 2025-07-03 162204.png"
             alt="Resume"
@@ -41,7 +48,7 @@ const Resume = () => {
           />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </section>
   );
 };

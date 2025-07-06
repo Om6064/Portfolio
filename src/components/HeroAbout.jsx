@@ -12,21 +12,10 @@ const HeroAbout = () => {
           <h1 className="font-semibold text-3xl md:text-4xl pb-8 text-center md:text-left">
             LET ME <span className="text-[#cd5ff8]">INTRODUCE</span> MYSELF
           </h1>
-          <p className="my-4 text-lg md:text-xl text-center md:text-left">
-            I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
-          </p>
-
-          <p className="my-4 text-lg md:text-xl text-center md:text-left">
-            I am fluent in classics like C++, Javascript and Go.
-          </p>
-
-          <p className="my-4 text-lg md:text-xl text-center md:text-left">
-            My field of Interest's are building new Web Technologies and Products and also in areas related to Blockchain.
-          </p>
-
-          <p className="my-4 text-lg md:text-xl text-center md:text-left">
-            Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks like React.js and Next.js.
-          </p>
+          <p className="py-4 text-xl">I fell in love with programming and I keep learning every day! 🚀</p>
+          <p className="py-4 text-xl">I am fluent in Java, JavaScript, HTML, CSS, and comfortable working with React.js for building modern web applications.</p>
+          <p className="py-4 text-xl">My fields of interest include Full Stack Web Development, creating efficient and user-friendly web applications, and exploring new technologies that solve real-world problems.</p>
+          <p className="py-4 text-xl">Whenever possible, I also apply my passion for building projects with Node.js, React.js, and learning modern frameworks and tools to become an even better developer.</p>
         </div>
 
         {/* Right column - Profile Card */}

@@ -4,7 +4,7 @@ const GitHubHeatmap = () => {
   return (
     <div style={{ paddingBottom: "10px" }}>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="om6064"
         blockSize={15}
         blockMargin={5}
         color="#c084f5"

@@ -5,9 +5,9 @@ import { useState } from 'react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const {pathname} = useLocation()
+  const { pathname } = useLocation()
   // console.log(pathname);
-  
+
 
   return (
     <header className="py-5 absolute w-full z-50">
@@ -36,7 +36,8 @@ const Header = () => {
             <Link to="/resume" className={`cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400 ${pathname === "/resume" && "border-b-4 pb-2 border-purple-400"}`}>
               <i className="ri-booklet-line"></i> Resume
             </Link>
-            <Link to="/blog" className={`cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400 ${pathname === "/blog" && "border-b-4 pb-2 border-purple-400"}`}>
+            <Link to="/blog" className={`cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400 ${pathname.startsWith("/blogs")
+              && "border-b-4 pb-2 border-purple-400"}`}>
               <i className="ri-news-line"></i> Blogs
             </Link>
             <Link to="/contact" className={`cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400 ${pathname === "/contact" && "border-b-4 pb-2 border-purple-400"}`}>

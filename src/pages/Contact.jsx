@@ -3,7 +3,7 @@ import Particles from "../components/Particles";
 
 const Projects = () => {
   return (
-    <div className="relative w-full min-h-screen bg-black text-white overflow-hidden">
+    <div className="relative flex flex-col min-h-screen bg-black text-white overflow-hidden">
       {/* Particle background */}
       <div className="absolute inset-0 z-10">
         <Particles
@@ -19,8 +19,10 @@ const Projects = () => {
       </div>
 
       {/* Page content */}
-      <section className="p-5 py-32">
-        <h2 className="flex justify-center items-center text-2xl font-bold mb-4">Contact</h2>
+      <main className="relative z-20 flex-grow p-5 py-32">
+        <h2 className="flex justify-center items-center text-2xl font-bold mb-4">
+          Contact
+        </h2>
         <p className="flex justify-center items-center text-white mb-8 text-center">
           "Connect with Aryan: Reach Out for Collaboration, Inquiries, or Support – Your Next Digital Solution is
           Just a Message Away."
@@ -122,8 +124,12 @@ const Projects = () => {
             </form>
           </div>
         </div>
-      </section>
-      <Footer/>
+      </main>
+
+      {/* Footer always on top of particles */}
+      <footer className="relative z-20">
+        <Footer />
+      </footer>
     </div>
   );
 };

@@ -98,6 +98,15 @@ const Particles = ({
     const renderer = new Renderer({ depth: false, alpha: true });
     const gl = renderer.gl;
     container.appendChild(gl.canvas);
+
+    // ✅ FIX: force canvas to fill container
+    gl.canvas.style.position = "absolute";
+    gl.canvas.style.top = "0";
+    gl.canvas.style.left = "0";
+    gl.canvas.style.width = "100%";
+    gl.canvas.style.height = "100%";
+    gl.canvas.style.display = "block";
+
     gl.clearColor(0, 0, 0, 0);
 
     const camera = new Camera(gl, { fov: 15 });
@@ -123,6 +132,7 @@ const Particles = ({
       container.addEventListener("mousemove", handleMouseMove);
     }
 
+    // SAME: particles setup...
     const count = particleCount;
     const positions = new Float32Array(count * 3);
     const randoms = new Float32Array(count * 4);
@@ -224,9 +234,9 @@ const Particles = ({
   return (
     <div
       ref={containerRef}
-      className={`relative w-full h-full ${className}`}
+      className={`absolute inset-0 ${className}`}
     />
   );
 };
 
-export default Particles;
+export default Particles; 

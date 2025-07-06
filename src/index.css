@@ -104,4 +104,29 @@
 .col-xl-11 { @apply xl:w-11/12 xl:px-3; }
 .col-xl-12 { @apply xl:w-full xl:px-3; }
 
+/* Custom scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7c3aed, #9333ea); /* Purple gradient thumb */
+  border-radius: 10px; /* Rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #a855f7, #9333ea); /* Lighter on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9333ea #000000;
+}
+
+
 

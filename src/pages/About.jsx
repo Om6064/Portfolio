@@ -3,7 +3,7 @@ import GitHubHeatmap from "../components/GitHubHeatmap";
 import Particles from "../components/Particles";
 
 const About = () => (
-  <section className="relative top-0 w-full -z-10 bg-black text-white">
+  <section className="absolute top-0 w-full -z-10 bg-black text-white">
     <div style={{
       position: 'fixed',
       top: 0,
@@ -24,21 +24,21 @@ const About = () => (
       />
     </div>
     <div className="container mx-auto relative">
-      <div className="min-h-screen  flex  px-6  space-y-12 pt-72 pb-24">
-        <div className="col-8">
+      <div className="min-h-screen  flex flex-wrap  px-6  space-y-12 pt-72 pb-24">
+        <div className="col-md-8">
           <div className="max-w-4xl ">
             <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">
               Know Who <span className="text-purple-400">I'M</span>
             </h1>
             <p className="text-2xl mb-4">
-              Hi Everyone, I am <span className="text-purple-400">Soumyajit Behera</span> from{" "}
-              <span className="text-purple-400">Bhubaneswar, India</span>.
+              Hi Everyone, I am <span className="text-purple-400">Aryan Patel</span> form{" "}
+              <span className="text-purple-400">Surat, India</span>.
             </p>
             <p className="text-2xl mb-4">
-              I am currently employed as a software developer at Juspay.
+              I am currently pursuing a Full Stack Development course at Red & White Skill Education and have completed my B.Sc. IT at Shree Ram Krishna Institute of Computer and Applied Science.
             </p>
             <p className="text-2xl mb-8">
-              I have completed Integrated MSc (IMSc) in Maths and Computing at BIT Mesra.
+              I also have experience working as a Lab Coordinator at Red & White for one year.
             </p>
             <p className="text-2xl mb-4">Apart from coding, some other activities that I love to do!</p>
             <ul className="text-left inline-block mb-8">
@@ -53,11 +53,11 @@ const About = () => (
               </li>
             </ul>
             <p className="italic text-purple-300">"Strive to build things that make a difference!"</p>
-            <p className="mt-1">— Soumyajit</p>
+            <p className="mt-1">— Aryan</p>
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-md-4">
           <div>
             <img src="image/about.aee0f771fbfc1e7b8fa8.png" alt="" />
           </div>
