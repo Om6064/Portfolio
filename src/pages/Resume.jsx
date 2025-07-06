@@ -34,7 +34,7 @@ const Resume = () => {
           href="https://drive.google.com/file/d/1V0Se-fCBoM5N8_oBMtDI2dwt-Bmhl0IT/view"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#59327b] p-3 rounded-lg inline-flex items-center gap-2 hover:bg-purple-700 transition"
+          className="bg-[#59327b] p-3 rounded-lg inline-flex items-center z-10 gap-2 hover:bg-purple-700 transition"
         >
           <i className="ri-download-2-line"></i> Download CV
         </a>
