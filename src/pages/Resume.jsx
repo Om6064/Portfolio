@@ -40,7 +40,7 @@ const Resume = () => {
         </a>
 
         {/* Resume Image */}
-        <div className="mt-8 w-full max-w-4xl">
+        <div className="mt-8 col-md-4">
           <img
             src="/image/Screenshot 2025-07-03 162204.png"
             alt="Resume"

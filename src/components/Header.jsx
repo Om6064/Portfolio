@@ -14,13 +14,15 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div>
-            <img
-              src="image/Black_Yellow_White_Simple_Minimalist_Initial_Name_Logo__4_-removebg-preview.png"
-              alt="logo"
-              className="w-[60px] h-[60px]"
-            />
-          </div>
+          <Link to={"/"}>
+            <div>
+              <img
+                src="image/Black_Yellow_White_Simple_Minimalist_Initial_Name_Logo__4_-removebg-preview.png"
+                alt="logo"
+                className="w-[60px] h-[60px]"
+              />
+            </div>
+          </Link>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center gap-12 text-xl text-white font-semibold">
