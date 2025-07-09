@@ -6,14 +6,14 @@ import { useState } from 'react';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { pathname } = useLocation()
-  // console.log(pathname);
+
 
 
   return (
     <header className="py-5 absolute w-full z-50">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          {/* Logo */}
+     
           <Link to={"/"}>
             <div>
               <img
@@ -24,7 +24,7 @@ const Header = () => {
             </div>
           </Link>
 
-          {/* Desktop Menu */}
+       
           <nav className="hidden md:flex items-center gap-12 text-xl text-white font-semibold">
             <Link to="/" className={`cursor-pointer duration-200 hover:border-b-4 pb-2 border-purple-400 ${pathname === "/" && "border-b-4 pb-2 border-purple-400"}`}>
               <i className="ri-home-7-line"></i> Home
@@ -55,7 +55,7 @@ const Header = () => {
             </a>
           </nav>
 
-          {/* Hamburger Icon */}
+       
           <button
             className="md:hidden text-white text-3xl focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
@@ -64,7 +64,7 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+    
         {isOpen && (
           <div className="md:hidden mt-4 bg-[#000000] h-screen rounded p-6 text-white flex flex-col gap-4 text-lg font-semibold">
             <Link to="/" onClick={() => setIsOpen(false)}>
