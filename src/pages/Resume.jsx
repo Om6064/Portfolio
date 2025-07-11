@@ -48,7 +48,9 @@ const Resume = () => {
           />
         </div>
       </div>
-      <Footer />
+      <div className="fixed -bottom-1 w-full z-10">
+        <Footer />
+      </div>
     </section>
   );
 };
