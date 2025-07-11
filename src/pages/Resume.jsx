@@ -31,7 +31,7 @@ const Resume = () => {
       <div className="container mx-auto px-4 py-28 flex flex-col items-center justify-center">
         {/* Download Button */}
         <a
-          href="https://drive.google.com/file/d/1V0Se-fCBoM5N8_oBMtDI2dwt-Bmhl0IT/view"
+          href="https://drive.google.com/file/d/1ia6KaRwJJMsKwNwWPuSJX1iZJP5cmZ_J/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#59327b] p-3 rounded-lg inline-flex items-center z-10 gap-2 hover:bg-purple-700 transition"
@@ -42,7 +42,7 @@ const Resume = () => {
         {/* Resume Image */}
         <div className="mt-8 col-md-4">
           <img
-            src="/image/Screenshot 2025-07-03 162204.png"
+            src="image/Screenshot 2025-07-11 092343.png"
             alt="Resume"
             className="w-full h-auto rounded-lg shadow-lg"
           />
